@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PictureSearch
 
 PictureSearch 是一个原生 macOS App，用于通过自然语言搜索用户的 Photos 图库。
@@ -110,3 +111,7 @@ App 会继续使用 OCR、时间和类型检索，并明确显示视觉模型未
 ```sh
 xcodebuild -project PictureSearch.xcodeproj -scheme PictureSearch -destination 'platform=macOS' test
 ```
+=======
+# Picture-search
+基于 SwiftUI、PhotoKit、Apple Vision 与本地索引构建的 macOS 智能图片搜索应用，支持通过 OCR、时间和图片类型自然语言搜索 Photos 图库，所有数据默认在本机处理。
+>>>>>>> 9867aa2904139264cd893d3f82c3ea7c59219294
