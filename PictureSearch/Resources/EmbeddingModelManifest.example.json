@@ -1,0 +1,34 @@
+{
+  "version": "local-clip-template",
+  "source": "替换为本地 Core ML 图文双塔模型来源，例如 OpenAI CLIP 转换产物",
+  "license": "替换为模型权重和转换产物的许可证说明",
+  "imageModelName": "CLIPImageEncoder",
+  "textModelName": "CLIPTextEncoder",
+  "imageModelFileSizeMB": null,
+  "textModelFileSizeMB": null,
+  "tokenizerFileSizeKB": null,
+  "imageModelSHA256": null,
+  "textModelSHA256": null,
+  "tokenizerSHA256": null,
+  "integrationReason": "替换为引入该本地图文模型的原因，例如需要支持画面描述类自然语言找图",
+  "alternativesConsidered": [
+    "替换为已评估的替代方案，例如 Apple MobileCLIP 权重因研究用途限制不作为默认模型",
+    "替换为已评估的替代方案，例如云端 embedding 因隐私边界不采用"
+  ],
+  "expectedImpact": "替换为对 App 体积、首次加载耗时、单张推理耗时、内存占用、构建复杂度和维护成本的影响评估",
+  "configuration": {
+    "imageInputName": "image",
+    "imageOutputName": "image_embedding",
+    "textInputName": "tokens",
+    "textOutputName": "text_embedding",
+    "tokenizerResourceName": "clip_tokenizer.json",
+    "textSequenceLength": 77,
+    "textPadTokenID": 0,
+    "textStartTokenID": 49406,
+    "textEndTokenID": 49407,
+    "imageInputSize": 224,
+    "imageMean": [0.48145466, 0.4578275, 0.40821073],
+    "imageStandardDeviation": [0.26862954, 0.26130258, 0.27577711]
+  },
+  "notes": "这是接入模板，不是已验证模型配置。加入真实模型前必须确认来源、许可证、输入输出名、tokenizer、预处理参数、模型体积、耗时和中英文查询效果。"
+}

@@ -1,0 +1,39 @@
+{
+  "samples": [
+    {
+      "sampleID": "zh-1",
+      "assetLocalIdentifier": "替换为本机 Photos 资产 localIdentifier",
+      "relatedQuery": "海边夕阳",
+      "unrelatedQuery": "英文文档截图",
+      "language": "chinese"
+    },
+    {
+      "sampleID": "en-1",
+      "assetLocalIdentifier": "替换为本机 Photos 资产 localIdentifier",
+      "relatedQuery": "beach sunset",
+      "unrelatedQuery": "invoice screenshot",
+      "language": "english"
+    },
+    {
+      "sampleID": "mix-1",
+      "assetLocalIdentifier": "替换为本机 Photos 资产 localIdentifier",
+      "relatedQuery": "海边 sunset",
+      "unrelatedQuery": "invoice screenshot",
+      "language": "mixed"
+    },
+    {
+      "sampleID": "zh-2",
+      "assetLocalIdentifier": "替换为本机 Photos 资产 localIdentifier",
+      "relatedQuery": "黑色猫在沙发上",
+      "unrelatedQuery": "产品说明截图",
+      "language": "chinese"
+    },
+    {
+      "sampleID": "zh-3",
+      "assetLocalIdentifier": "替换为本机 Photos 资产 localIdentifier",
+      "relatedQuery": "餐厅食物照片",
+      "unrelatedQuery": "蓝天风景",
+      "language": "chinese"
+    }
+  ]
+}

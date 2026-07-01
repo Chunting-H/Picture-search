@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A1000010000000000000001 /* PictureSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000101 /* PictureSearchApp.swift */; };
+		8A1000010000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000102 /* ContentView.swift */; };
+		8A1000010000000000000003 /* PhotoLibraryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000103 /* PhotoLibraryService.swift */; };
+		8A1000010000000000000004 /* OCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000104 /* OCRService.swift */; };
+		8A1000010000000000000005 /* EmbeddingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000105 /* EmbeddingService.swift */; };
+		8A1000010000000000000006 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000106 /* SearchService.swift */; };
+		8A1000010000000000000007 /* IndexStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000107 /* IndexStore.swift */; };
+		8A1000010000000000000008 /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000108 /* SearchModels.swift */; };
+		8A1000010000000000000009 /* PictureSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000109 /* PictureSearchTests.swift */; };
+		8A100001000000000000000A /* PhotoLibraryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000112 /* PhotoLibraryModels.swift */; };
+		8A100001000000000000000B /* PhotoLibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000113 /* PhotoLibraryViewModel.swift */; };
+		8A100001000000000000000C /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000114 /* AuthorizationView.swift */; };
+		8A100001000000000000000D /* LibraryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000115 /* LibraryGridView.swift */; };
+		8A100001000000000000000E /* IndexModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000117 /* IndexModels.swift */; };
+		8A100001000000000000000F /* IndexingStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000118 /* IndexingStatusView.swift */; };
+		8A1000010000000000000010 /* OCRModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1000010000000000000119 /* OCRModels.swift */; };
+		8A1000010000000000000011 /* EmbeddingValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A100001000000000000011A /* EmbeddingValidation.swift */; };
+		8A1000010000000000000012 /* EmbeddingModelManifest.example.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A100001000000000000011B /* EmbeddingModelManifest.example.json */; };
+		8A1000010000000000000013 /* VisualSearchVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A100001000000000000011C /* VisualSearchVerificationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A1000010000000000000201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A1000010000000000000301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A1000010000000000000401;
+			remoteInfo = PictureSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A1000010000000000000101 /* PictureSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureSearchApp.swift; sourceTree = "<group>"; };
+		8A1000010000000000000102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A1000010000000000000103 /* PhotoLibraryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryService.swift; sourceTree = "<group>"; };
+		8A1000010000000000000104 /* OCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRService.swift; sourceTree = "<group>"; };
+		8A1000010000000000000105 /* EmbeddingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddingService.swift; sourceTree = "<group>"; };
+		8A1000010000000000000106 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		8A1000010000000000000107 /* IndexStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexStore.swift; sourceTree = "<group>"; };
+		8A1000010000000000000108 /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
+		8A1000010000000000000109 /* PictureSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureSearchTests.swift; sourceTree = "<group>"; };
+		8A1000010000000000000110 /* PictureSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1000010000000000000111 /* PictureSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1000010000000000000112 /* PhotoLibraryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryModels.swift; sourceTree = "<group>"; };
+		8A1000010000000000000113 /* PhotoLibraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryViewModel.swift; sourceTree = "<group>"; };
+		8A1000010000000000000114 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		8A1000010000000000000115 /* LibraryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryGridView.swift; sourceTree = "<group>"; };
+		8A1000010000000000000116 /* PictureSearch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PictureSearch.entitlements; sourceTree = "<group>"; };
+		8A1000010000000000000117 /* IndexModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexModels.swift; sourceTree = "<group>"; };
+		8A1000010000000000000118 /* IndexingStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexingStatusView.swift; sourceTree = "<group>"; };
+		8A1000010000000000000119 /* OCRModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRModels.swift; sourceTree = "<group>"; };
+		8A100001000000000000011A /* EmbeddingValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddingValidation.swift; sourceTree = "<group>"; };
+		8A100001000000000000011B /* EmbeddingModelManifest.example.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EmbeddingModelManifest.example.json; sourceTree = "<group>"; };
+		8A100001000000000000011C /* VisualSearchVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualSearchVerificationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1000010000000000000501 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		8A1000010000000000000502 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1000010000000000000601 = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000602 /* PictureSearch */,
+				8A1000010000000000000608 /* PictureSearchTests */,
+				8A1000010000000000000609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000602 /* PictureSearch */ = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000603 /* App */,
+				8A1000010000000000000604 /* Features */,
+				8A1000010000000000000605 /* Services */,
+				8A1000010000000000000606 /* Models */,
+				8A1000010000000000000607 /* Resources */,
+				8A1000010000000000000116 /* PictureSearch.entitlements */,
+			);
+			path = PictureSearch;
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000603 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000101 /* PictureSearchApp.swift */,
+				8A1000010000000000000102 /* ContentView.swift */,
+				8A1000010000000000000113 /* PhotoLibraryViewModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000604 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000610 /* Authorization */,
+				8A1000010000000000000611 /* Library */,
+				8A1000010000000000000612 /* Indexing */,
+				8A1000010000000000000613 /* Search */,
+				8A1000010000000000000614 /* Preview */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000605 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000103 /* PhotoLibraryService.swift */,
+				8A1000010000000000000104 /* OCRService.swift */,
+				8A1000010000000000000105 /* EmbeddingService.swift */,
+				8A100001000000000000011A /* EmbeddingValidation.swift */,
+				8A1000010000000000000106 /* SearchService.swift */,
+				8A1000010000000000000107 /* IndexStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000606 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000108 /* SearchModels.swift */,
+				8A1000010000000000000112 /* PhotoLibraryModels.swift */,
+				8A1000010000000000000117 /* IndexModels.swift */,
+				8A1000010000000000000119 /* OCRModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000607 /* Resources */ = {isa = PBXGroup; children = (
+				8A100001000000000000011B /* EmbeddingModelManifest.example.json */,
+			); path = Resources; sourceTree = "<group>"; };
+		8A1000010000000000000608 /* PictureSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000109 /* PictureSearchTests.swift */,
+			);
+			path = PictureSearchTests;
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000110 /* PictureSearch.app */,
+				8A1000010000000000000111 /* PictureSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000610 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000114 /* AuthorizationView.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000611 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000115 /* LibraryGridView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000612 /* Indexing */ = {
+			isa = PBXGroup;
+			children = (
+				8A1000010000000000000118 /* IndexingStatusView.swift */,
+			);
+			path = Indexing;
+			sourceTree = "<group>";
+		};
+		8A1000010000000000000613 /* Search */ = {isa = PBXGroup; children = (
+				8A100001000000000000011C /* VisualSearchVerificationView.swift */,
+			); path = Search; sourceTree = "<group>"; };
+		8A1000010000000000000614 /* Preview */ = {isa = PBXGroup; children = (); path = Preview; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1000010000000000000401 /* PictureSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1000010000000000000701 /* Build configuration list for PBXNativeTarget "PictureSearch" */;
+			buildPhases = (
+				8A1000010000000000000801 /* Sources */,
+				8A1000010000000000000501 /* Frameworks */,
+				8A1000010000000000000803 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = PictureSearch;
+			productName = PictureSearch;
+			productReference = 8A1000010000000000000110 /* PictureSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A1000010000000000000402 /* PictureSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1000010000000000000702 /* Build configuration list for PBXNativeTarget "PictureSearchTests" */;
+			buildPhases = (
+				8A1000010000000000000802 /* Sources */,
+				8A1000010000000000000502 /* Frameworks */,
+			);
+			buildRules = ();
+			dependencies = (
+				8A1000010000000000000202 /* PBXTargetDependency */,
+			);
+			name = PictureSearchTests;
+			productName = PictureSearchTests;
+			productReference = 8A1000010000000000000111 /* PictureSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1000010000000000000301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8A1000010000000000000401 = {CreatedOnToolsVersion = 15.0; };
+					8A1000010000000000000402 = {CreatedOnToolsVersion = 15.0; TestTargetID = 8A1000010000000000000401; };
+				};
+			};
+			buildConfigurationList = 8A1000010000000000000703 /* Build configuration list for PBXProject "PictureSearch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 8A1000010000000000000601;
+			productRefGroup = 8A1000010000000000000609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1000010000000000000401 /* PictureSearch */,
+				8A1000010000000000000402 /* PictureSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1000010000000000000803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1000010000000000000012 /* EmbeddingModelManifest.example.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1000010000000000000801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1000010000000000000001 /* PictureSearchApp.swift in Sources */,
+				8A1000010000000000000002 /* ContentView.swift in Sources */,
+				8A1000010000000000000003 /* PhotoLibraryService.swift in Sources */,
+				8A1000010000000000000004 /* OCRService.swift in Sources */,
+				8A1000010000000000000005 /* EmbeddingService.swift in Sources */,
+				8A1000010000000000000006 /* SearchService.swift in Sources */,
+				8A1000010000000000000007 /* IndexStore.swift in Sources */,
+				8A1000010000000000000008 /* SearchModels.swift in Sources */,
+				8A100001000000000000000A /* PhotoLibraryModels.swift in Sources */,
+				8A100001000000000000000B /* PhotoLibraryViewModel.swift in Sources */,
+				8A100001000000000000000C /* AuthorizationView.swift in Sources */,
+				8A100001000000000000000D /* LibraryGridView.swift in Sources */,
+				8A100001000000000000000E /* IndexModels.swift in Sources */,
+				8A100001000000000000000F /* IndexingStatusView.swift in Sources */,
+				8A1000010000000000000010 /* OCRModels.swift in Sources */,
+				8A1000010000000000000011 /* EmbeddingValidation.swift in Sources */,
+				8A1000010000000000000013 /* VisualSearchVerificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A1000010000000000000802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1000010000000000000009 /* PictureSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A1000010000000000000202 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 8A1000010000000000000401 /* PictureSearch */; targetProxy = 8A1000010000000000000201 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A1000010000000000000901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A1000010000000000000902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8A1000010000000000000903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PictureSearch/PictureSearch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PictureSearch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "PictureSearch 需要读取 Photos 图库中的图片缩略图和创建时间，用于在本机建立图片搜索索引。App 不会修改、删除或整理你的照片。";
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.PictureSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A1000010000000000000904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PictureSearch/PictureSearch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PictureSearch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "PictureSearch 需要读取 Photos 图库中的图片缩略图和创建时间，用于在本机建立图片搜索索引。App 不会修改、删除或整理你的照片。";
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+				MARKETING_VERSION = 0.1.0;
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.PictureSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8A1000010000000000000905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", "@loader_path/../Frameworks");
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.PictureSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictureSearch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PictureSearch";
+			};
+			name = Debug;
+		};
+		8A1000010000000000000906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks", "@loader_path/../Frameworks");
+				OTHER_LDFLAGS = "-lsqlite3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.PictureSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PictureSearch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PictureSearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1000010000000000000701 /* Build configuration list for PBXNativeTarget "PictureSearch" */ = {isa = XCConfigurationList; buildConfigurations = (8A1000010000000000000903 /* Debug */, 8A1000010000000000000904 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		8A1000010000000000000702 /* Build configuration list for PBXNativeTarget "PictureSearchTests" */ = {isa = XCConfigurationList; buildConfigurations = (8A1000010000000000000905 /* Debug */, 8A1000010000000000000906 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		8A1000010000000000000703 /* Build configuration list for PBXProject "PictureSearch" */ = {isa = XCConfigurationList; buildConfigurations = (8A1000010000000000000901 /* Debug */, 8A1000010000000000000902 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1000010000000000000301 /* Project object */;
+}
